@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:kajikia-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -39,5 +40,11 @@ F19 "OA1" O R 2800 4400 50
 F20 "OA2" O R 2800 4500 50 
 F21 "OB1" O R 2800 4600 50 
 F22 "OB2" O R 2800 4700 50 
+$EndSheet
+$Sheet
+S 1950 1250 1750 1750
+U 5AF7E834
+F0 "mcu" 50
+F1 "mcu.sch" 50
 $EndSheet
 $EndSCHEMATC
