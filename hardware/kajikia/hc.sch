@@ -1,0 +1,188 @@
+EESchema Schematic File Version 4
+LIBS:kajikia-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Q_NMOS_SGD Q?
+U 1 1 5AFECAC7
+P 7250 3200
+F 0 "Q?" H 7455 3246 50  0000 L CNN
+F 1 "Q_NMOS_SGD" H 7455 3155 50  0000 L CNN
+F 2 "" H 7450 3300 50  0001 C CNN
+F 3 "~" H 7250 3200 50  0001 C CNN
+	1    7250 3200
+	1    0    0    -1  
+$EndComp
+Text HLabel 4650 3550 0    50   Input ~ 0
+IN
+$Comp
+L Device:Q_NPN_BEC Q?
+U 1 1 5AFED151
+P 5550 3550
+F 0 "Q?" H 5741 3596 50  0000 L CNN
+F 1 "Q_NPN_BEC" H 5741 3505 50  0000 L CNN
+F 2 "" H 5750 3650 50  0001 C CNN
+F 3 "~" H 5550 3550 50  0001 C CNN
+	1    5550 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_BEC Q?
+U 1 1 5AFED1B7
+P 6650 2850
+F 0 "Q?" H 6841 2896 50  0000 L CNN
+F 1 "Q_NPN_BEC" H 6841 2805 50  0000 L CNN
+F 2 "" H 6850 2950 50  0001 C CNN
+F 3 "~" H 6650 2850 50  0001 C CNN
+	1    6650 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PNP_BEC Q?
+U 1 1 5AFED26D
+P 6650 3550
+F 0 "Q?" H 6841 3504 50  0000 L CNN
+F 1 "Q_PNP_BEC" H 6841 3595 50  0000 L CNN
+F 2 "" H 6850 3650 50  0001 C CNN
+F 3 "~" H 6650 3550 50  0001 C CNN
+	1    6650 3550
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7050 3200 6750 3200
+Wire Wire Line
+	6750 3200 6750 3050
+Wire Wire Line
+	6750 3200 6750 3350
+Connection ~ 6750 3200
+Wire Wire Line
+	6450 2850 6300 2850
+Wire Wire Line
+	6300 2850 6300 3200
+Wire Wire Line
+	6300 3550 6450 3550
+$Comp
+L Device:R R?
+U 1 1 5AFED42C
+P 5650 2900
+F 0 "R?" H 5720 2946 50  0000 L CNN
+F 1 "R" H 5720 2855 50  0000 L CNN
+F 2 "" V 5580 2900 50  0001 C CNN
+F 3 "~" H 5650 2900 50  0001 C CNN
+	1    5650 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5AFED526
+P 5250 2900
+F 0 "C?" H 5365 2946 50  0000 L CNN
+F 1 "C" H 5365 2855 50  0000 L CNN
+F 2 "" H 5288 2750 50  0001 C CNN
+F 3 "~" H 5250 2900 50  0001 C CNN
+	1    5250 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5AFED5C3
+P 5000 3550
+F 0 "R?" V 4793 3550 50  0000 C CNN
+F 1 "R" V 4884 3550 50  0000 C CNN
+F 2 "" V 4930 3550 50  0001 C CNN
+F 3 "~" H 5000 3550 50  0001 C CNN
+	1    5000 3550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5650 3050 5650 3200
+Wire Wire Line
+	5650 3200 6300 3200
+Connection ~ 5650 3200
+Wire Wire Line
+	5650 3200 5650 3350
+Connection ~ 6300 3200
+Wire Wire Line
+	6300 3200 6300 3550
+Wire Wire Line
+	5150 3550 5350 3550
+Wire Wire Line
+	6750 3750 6750 3900
+Wire Wire Line
+	6750 3900 6000 3900
+Wire Wire Line
+	5650 3900 5650 3750
+Wire Wire Line
+	6750 2650 6750 2500
+Wire Wire Line
+	6750 2500 6000 2500
+Wire Wire Line
+	5650 2500 5650 2750
+Wire Wire Line
+	7350 3400 7350 3900
+Wire Wire Line
+	7350 3900 6750 3900
+Connection ~ 6750 3900
+Text HLabel 7500 2500 2    50   Input ~ 0
+OUT
+Wire Wire Line
+	5250 3050 5250 3900
+Wire Wire Line
+	5250 3900 5650 3900
+Connection ~ 5650 3900
+Wire Wire Line
+	5250 2750 5250 2500
+Wire Wire Line
+	5250 2500 5650 2500
+Connection ~ 5650 2500
+Wire Wire Line
+	4650 3550 4850 3550
+$Comp
+L power:+12V #PWR?
+U 1 1 5AFEEC6B
+P 6000 2350
+F 0 "#PWR?" H 6000 2200 50  0001 C CNN
+F 1 "+12V" H 6015 2523 50  0000 C CNN
+F 2 "" H 6000 2350 50  0001 C CNN
+F 3 "" H 6000 2350 50  0001 C CNN
+	1    6000 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 2500 6000 2350
+Connection ~ 6000 2500
+Wire Wire Line
+	6000 2500 5650 2500
+$Comp
+L power:GND #PWR?
+U 1 1 5AFEF05E
+P 6000 4050
+F 0 "#PWR?" H 6000 3800 50  0001 C CNN
+F 1 "GND" H 6005 3877 50  0000 C CNN
+F 2 "" H 6000 4050 50  0001 C CNN
+F 3 "" H 6000 4050 50  0001 C CNN
+	1    6000 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 4050 6000 3900
+Connection ~ 6000 3900
+Wire Wire Line
+	6000 3900 5650 3900
+Wire Wire Line
+	7350 2500 7500 2500
+Wire Wire Line
+	7350 2500 7350 3000
+$EndSCHEMATC

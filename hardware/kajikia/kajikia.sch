@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -46,5 +46,31 @@ S 1950 1250 1750 1750
 U 5AF7E834
 F0 "mcu" 50
 F1 "mcu.sch" 50
+$EndSheet
+$Sheet
+S 6500 1600 550  200 
+U 5AFECA39
+F0 "hc1" 50
+F1 "hc.sch" 50
+F2 "IN" I L 6500 1700 50 
+F3 "OUT" I R 7050 1700 50 
+$EndSheet
+$Sheet
+S 6500 2100 550  200 
+U 5AFF08F7
+F0 "lc1" 50
+F1 "lc.sch" 50
+F2 "IN" I L 6500 2200 50 
+F3 "OUT" I R 7050 2200 50 
+$EndSheet
+Text Notes 10750 750  0    50   ~ 0
+buzzer\nled
+$Sheet
+S 6500 2550 550  200 
+U 5AFF10F9
+F0 "hvio1" 50
+F1 "hvio.sch" 50
+F2 "IN" I L 6500 2650 50 
+F3 "OUT" I R 7050 2650 50 
 $EndSheet
 $EndSCHEMATC
