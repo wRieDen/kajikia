@@ -498,8 +498,6 @@ Text GLabel 4500 2100 1    50   Input ~ 0
 SDMMC2_D2
 Text GLabel 4600 2100 1    50   Input ~ 0
 SDMMC2_D3
-Text GLabel 8300 2100 1    50   Input ~ 0
-SDMMC2_CMD
 Text GLabel 5700 1500 1    50   Input ~ 0
 OTG_HS_DP
 Text GLabel 5600 1500 1    50   Input ~ 0
@@ -542,7 +540,7 @@ Text GLabel 6500 1950 1    50   Input ~ 0
 USART6_TX
 Text GLabel 6600 1950 1    50   Input ~ 0
 USART6_RX
-Text Notes 7750 2000 0    50   ~ 0
+Text Notes 7750 1550 0    50   ~ 0
 tmc
 Text Notes 8450 1950 0    50   ~ 0
 tmc
@@ -550,6 +548,231 @@ Text GLabel 5300 4800 3    50   Input ~ 0
 SPI1_SCK
 Text GLabel 5100 4800 3    50   Input ~ 0
 SPI1_MISO
-Text GLabel 4700 2100 1    50   Input ~ 0
+Text GLabel 8300 2100 1    50   Input ~ 0
 SPI1_MOSI
+Text GLabel 7900 2100 1    50   Input ~ 0
+SPI2_SCK
+Text GLabel 8100 4800 3    50   Input ~ 0
+SPI4_MISO
+Text GLabel 8200 4800 3    50   Input ~ 0
+SPI4_MOSI
+Text GLabel 8800 4800 3    50   Input ~ 0
+SPI4_SCK
+Text Notes 9650 1300 0    50   ~ 0
+SPI1 - tmc, max, header (display, sd)\nSPI2 - header, max\nSPI4 - header\nUSART1 - usbserial, header\nUSART2 - header\nI2C1 - header\nSDMMC1 - board\nSDMMC2 - header 
+Text GLabel 3300 1400 1    50   Input ~ 0
+DRV_CLK
+Text GLabel 1550 1050 0    50   Output ~ 0
+DRV1_EN
+Text GLabel 1550 1150 0    50   Output ~ 0
+DRV1_DIR
+Text GLabel 1550 1250 0    50   Output ~ 0
+DRV1_STEP
+Text GLabel 1550 1400 0    50   Output ~ 0
+DRV1_CS
+Text GLabel 5300 5700 3    50   Output ~ 0
+DRV_SCK
+Text GLabel 5100 5700 3    50   Input ~ 0
+DRV_MISO
+Text GLabel 8300 1400 1    50   Output ~ 0
+DRV_MOSI
+Text GLabel 1550 1850 0    50   Input ~ 0
+DRV1_DIAG0
+Text GLabel 1550 1950 0    50   Input ~ 0
+DRV1_DIAG1
+Wire Wire Line
+	1550 1950 1650 1950
+Wire Wire Line
+	1650 1850 1550 1850
+Wire Wire Line
+	1550 1700 1650 1700
+Wire Wire Line
+	1650 1600 1550 1600
+Wire Wire Line
+	1550 1500 1650 1500
+Wire Wire Line
+	1650 1400 1550 1400
+Wire Wire Line
+	1550 1250 1650 1250
+Wire Wire Line
+	1650 1150 1550 1150
+Wire Wire Line
+	1550 1050 1650 1050
+Wire Wire Line
+	1650 900  1550 900 
+Text GLabel 1550 2100 0    50   Output ~ 0
+DRV_DCEN
+Wire Wire Line
+	1550 2100 1650 2100
+Text GLabel 1550 2200 0    50   Input ~ 0
+DRV1_DCO
+Text GLabel 1550 2300 0    50   Output ~ 0
+DRV_DCIN
+Wire Wire Line
+	1550 2200 1650 2200
+Wire Wire Line
+	1550 2300 1650 2300
+Text GLabel 3300 2100 1    50   Input ~ 0
+MCO1
+Text GLabel 6100 2100 1    50   Input ~ 0
+ADC3_INP0
+Text GLabel 6200 2100 1    50   Input ~ 0
+ADC3_INP1
+Text GLabel 2900 2100 1    50   Input ~ 0
+ADC12_INP18
+Text GLabel 3000 2100 1    50   Input ~ 0
+ADC12_INP19
+Text GLabel 3100 2100 1    50   Input ~ 0
+ADC12_INP3
+Text GLabel 3200 2100 1    50   Input ~ 0
+ADC12_INP7
+Text GLabel 6100 4850 3    50   Input ~ 0
+STUPID
+Text GLabel 6300 4900 3    50   Input ~ 0
+STUPID
+Text GLabel 6400 4900 3    50   Input ~ 0
+STUPID
+Text GLabel 6500 5100 3    50   Input ~ 0
+TIM_ADC
+Text GLabel 6600 5100 3    50   Input ~ 0
+TIM_ADC
+Text GLabel 6700 5100 3    50   Input ~ 0
+TIM_ADC
+Text GLabel 6800 5100 3    50   Input ~ 0
+TIM_ADC
+Text GLabel 7000 4900 3    50   Input ~ 0
+STUPID
+Text GLabel 7100 4900 3    50   Input ~ 0
+STUPID
+Text GLabel 7200 4900 3    50   Input ~ 0
+STUPID
+Text GLabel 7300 4900 3    50   Input ~ 0
+STUPID
+Text GLabel 7400 4900 3    50   Input ~ 0
+STUPID
+Text GLabel 7600 4900 3    50   Input ~ 0
+STUPID
+Text GLabel 7700 4900 3    50   Input ~ 0
+STUPID
+Text GLabel 7900 4900 3    50   Input ~ 0
+STUPID
+Text GLabel 8000 4900 3    50   Input ~ 0
+STUPID
+Text GLabel 8900 4900 3    50   Input ~ 0
+STUPID
+Text GLabel 9000 4900 3    50   Input ~ 0
+STUPID
+Text GLabel 9100 4900 3    50   Input ~ 0
+STUPID
+Text GLabel 4200 4850 3    50   Input ~ 0
+STUPID
+Text GLabel 4300 4850 3    50   Input ~ 0
+STUPID
+Text GLabel 4400 4850 3    50   Input ~ 0
+STUPID
+Text GLabel 4500 4850 3    50   Input ~ 0
+STUPID
+Text GLabel 4600 4850 3    50   Input ~ 0
+STUPID
+Text GLabel 4700 4850 3    50   Input ~ 0
+STUPID
+Text GLabel 4900 4850 3    50   Input ~ 0
+STUPID
+Text GLabel 5000 4850 3    50   Input ~ 0
+STUPID
+Text GLabel 5400 4850 3    50   Input ~ 0
+STUPID
+Text GLabel 5500 4850 3    50   Input ~ 0
+STUPID
+Text GLabel 5600 4850 3    50   Input ~ 0
+STUPID
+Text GLabel 5700 4850 3    50   Input ~ 0
+STUPID
+Text GLabel 5200 4850 3    50   Input ~ 0
+STUPID
+Wire Wire Line
+	3400 2200 3400 2100
+Wire Wire Line
+	3500 2100 3500 2200
+Wire Wire Line
+	3600 2200 3600 2100
+Wire Wire Line
+	3700 2100 3700 2200
+Wire Wire Line
+	3800 2200 3800 2100
+Wire Wire Line
+	3900 2100 3900 2200
+Wire Wire Line
+	3300 2200 3300 2100
+Wire Wire Line
+	6100 2200 6100 2100
+Wire Wire Line
+	6200 2100 6200 2200
+Text GLabel 2500 2100 1    50   Input ~ 0
+SDMMC2_CMD
+Text GLabel 2600 2100 1    50   Input ~ 0
+uart4rx_tim_adc
+NoConn ~ 2600 1400
+NoConn ~ 2500 1400
+NoConn ~ 2700 1400
+NoConn ~ 2800 1400
+NoConn ~ 2900 1400
+NoConn ~ 3000 1400
+NoConn ~ 3100 1400
+NoConn ~ 3200 1400
+Text GLabel 4200 2100 1    50   Input ~ 0
+ANALOG
+Text GLabel 4300 2100 1    50   Input ~ 0
+ANALOG
+Text GLabel 4400 2100 1    50   Input ~ 0
+STUPID
+Wire Wire Line
+	4300 2100 4300 2200
+Wire Wire Line
+	4200 2200 4200 2100
+NoConn ~ 4200 1400
+NoConn ~ 4300 1400
+NoConn ~ 4500 1200
+NoConn ~ 4600 1200
+NoConn ~ 4700 1200
+Text GLabel 4900 2100 1    50   Input ~ 0
+I2C1_SDA
+NoConn ~ 4800 1400
+NoConn ~ 4900 1400
+NoConn ~ 5000 1400
+NoConn ~ 5100 1400
+Text GLabel 5400 2100 1    50   Input ~ 0
+STUPID
+Text GLabel 5500 2100 1    50   Input ~ 0
+STUPID
+Text GLabel 5900 2100 1    50   Input ~ 0
+STUPID
+Text GLabel 6000 2100 1    50   Input ~ 0
+STUPID
+Text GLabel 6300 2100 1    50   Input ~ 0
+STUPID
+Text GLabel 6400 2100 1    50   Input ~ 0
+STUPID
+Text GLabel 7600 2100 1    50   Input ~ 0
+STUPID
+Text GLabel 7700 2100 1    50   Input ~ 0
+STUPID
+Text GLabel 7800 2100 1    50   Input ~ 0
+STUPID
+Text GLabel 7900 1400 1    50   Input ~ 0
+MAX_SCK
+Text GLabel 8000 2100 1    50   Input ~ 0
+STUPID
+Text GLabel 8100 2100 1    50   Input ~ 0
+STUPID
+Text GLabel 8300 950  1    50   Input ~ 0
+SDMMC2_CMD
+Text GLabel 4700 1100 1    50   Input ~ 0
+SPI1_MOSI
+Wire Wire Line
+	5100 4800 5100 4700
+Wire Wire Line
+	5300 4700 5300 4800
+Wire Wire Line
+	4700 1100 4700 2200
 $EndSCHEMATC
