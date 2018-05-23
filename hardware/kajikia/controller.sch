@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 8
+Sheet 2 20
 Title ""
 Date ""
 Rev ""
@@ -15,11 +15,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_ST_STM32H7:STM32H753ZITx U?
+L MCU_ST_STM32H7:STM32H753ZITx U1
 U 1 1 5AF7E8AD
 P 5800 3400
-F 0 "U?" V 5796 -241 50  0000 R CNN
-F 1 "STM32H753ZITx" V 5705 -241 50  0000 R CNN
+F 0 "U1" V 6800 -250 50  0000 R CNN
+F 1 "STM32H753ZITx" V 6700 -250 50  0000 R CNN
 F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 4700 0   50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00388325.pdf" H 5800 3400 50  0001 C CNN
 	1    5800 3400
@@ -133,23 +133,23 @@ Connection ~ 9450 3800
 Wire Wire Line
 	9450 3800 9450 3700
 $Comp
-L Jumper:SolderJumper_3_Open JP?
+L Jumper:SolderJumper_3_Open JP1
 U 1 1 5AF81C56
 P 1650 3800
-F 0 "JP?" H 1650 4005 50  0000 C CNN
+F 0 "JP1" H 1650 4005 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 1650 3914 50  0000 C CNN
-F 2 "" H 1650 3800 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 1650 3800 50  0001 C CNN
 F 3 "~" H 1650 3800 50  0001 C CNN
 	1    1650 3800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1 C?
+L Device:CP1 C1
 U 1 1 5AF82CF6
 P 1100 3800
-F 0 "C?" V 848 3800 50  0000 C CNN
+F 0 "C1" V 848 3800 50  0000 C CNN
 F 1 "1F" V 939 3800 50  0000 C CNN
-F 2 "" H 1100 3800 50  0001 C CNN
+F 2 "_Generic:0603_Small" H 1100 3800 50  0001 C CNN
 F 3 "~" H 1100 3800 50  0001 C CNN
 	1    1100 3800
 	0    1    1    0   
@@ -167,86 +167,86 @@ Wire Wire Line
 Wire Wire Line
 	1250 3800 1450 3800
 $Comp
-L Device:Crystal Y?
+L Device:Crystal Y2
 U 1 1 5AF85759
-P 7350 1500
-F 0 "Y?" H 7350 1768 50  0000 C CNN
-F 1 "32.768KHz" H 7350 1677 50  0000 C CNN
-F 2 "" H 7350 1500 50  0001 C CNN
-F 3 "~" H 7350 1500 50  0001 C CNN
-	1    7350 1500
+P 7350 1250
+F 0 "Y2" H 7350 1518 50  0000 C CNN
+F 1 "32.768KHz" H 7350 1427 50  0000 C CNN
+F 2 "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm" H 7350 1250 50  0001 C CNN
+F 3 "~" H 7350 1250 50  0001 C CNN
+	1    7350 1250
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C7
 U 1 1 5AF85804
-P 7050 1200
-F 0 "C?" H 7165 1246 50  0000 L CNN
-F 1 "C" H 7165 1155 50  0000 L CNN
-F 2 "" H 7088 1050 50  0001 C CNN
-F 3 "~" H 7050 1200 50  0001 C CNN
-	1    7050 1200
+P 7050 950
+F 0 "C7" H 7165 996 50  0000 L CNN
+F 1 "C" H 7165 905 50  0000 L CNN
+F 2 "_Generic:0603_Small" H 7088 800 50  0001 C CNN
+F 3 "~" H 7050 950 50  0001 C CNN
+	1    7050 950 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C8
 U 1 1 5AF8585A
-P 7650 1200
-F 0 "C?" H 7765 1246 50  0000 L CNN
-F 1 "C" H 7765 1155 50  0000 L CNN
-F 2 "" H 7688 1050 50  0001 C CNN
-F 3 "~" H 7650 1200 50  0001 C CNN
-	1    7650 1200
+P 7650 950
+F 0 "C8" H 7765 996 50  0000 L CNN
+F 1 "C" H 7765 905 50  0000 L CNN
+F 2 "_Generic:0603_Small" H 7688 800 50  0001 C CNN
+F 3 "~" H 7650 950 50  0001 C CNN
+	1    7650 950 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7650 1350 7650 1500
+	7650 1100 7650 1250
 Wire Wire Line
-	7650 1500 7500 1500
+	7650 1250 7500 1250
 Wire Wire Line
-	7200 1500 7050 1500
+	7200 1250 7050 1250
 Wire Wire Line
-	7050 1500 7050 1350
+	7050 1250 7050 1100
 Wire Wire Line
-	7650 1500 7650 1700
+	7650 1250 7650 1450
 Wire Wire Line
-	7650 1700 7400 1700
+	7650 1450 7400 1450
 Wire Wire Line
-	7400 1700 7400 2200
-Connection ~ 7650 1500
+	7400 1450 7400 2200
+Connection ~ 7650 1250
 Wire Wire Line
-	7300 2200 7300 1700
+	7300 2200 7300 1450
 Wire Wire Line
-	7300 1700 7050 1700
+	7300 1450 7050 1450
 Wire Wire Line
-	7050 1700 7050 1500
-Connection ~ 7050 1500
-Text HLabel 7050 900  1    50   Input ~ 0
+	7050 1450 7050 1250
+Connection ~ 7050 1250
+Text HLabel 7050 750  1    50   Input ~ 0
 GND
-Text HLabel 7650 900  1    50   Input ~ 0
+Text HLabel 7650 750  1    50   Input ~ 0
 GND
 Wire Wire Line
-	7650 1050 7650 900 
+	7650 800  7650 750 
 Wire Wire Line
-	7050 900  7050 1050
+	7050 750  7050 800 
 $Comp
-L Device:C C?
+L Device:C C6
 U 1 1 5AF8A349
 P 4250 5850
-F 0 "C?" H 4365 5896 50  0000 L CNN
+F 0 "C6" H 4365 5896 50  0000 L CNN
 F 1 "C" H 4365 5805 50  0000 L CNN
-F 2 "" H 4288 5700 50  0001 C CNN
+F 2 "_Generic:0603_Small" H 4288 5700 50  0001 C CNN
 F 3 "~" H 4250 5850 50  0001 C CNN
 	1    4250 5850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C5
 U 1 1 5AF8A350
 P 3650 5850
-F 0 "C?" H 3765 5896 50  0000 L CNN
+F 0 "C5" H 3765 5896 50  0000 L CNN
 F 1 "C" H 3765 5805 50  0000 L CNN
-F 2 "" H 3688 5700 50  0001 C CNN
+F 2 "_Generic:0603_Small" H 3688 5700 50  0001 C CNN
 F 3 "~" H 3650 5850 50  0001 C CNN
 	1    3650 5850
 	-1   0    0    1   
@@ -270,12 +270,12 @@ GND
 Wire Wire Line
 	3650 6000 3650 6050
 $Comp
-L Device:Crystal_GND24 Y?
+L Device:Crystal_GND24 Y1
 U 1 1 5AF90F80
 P 4050 5600
-F 0 "Y?" H 4241 5646 50  0000 L CNN
+F 0 "Y1" H 4241 5646 50  0000 L CNN
 F 1 "16MHz" H 4241 5555 50  0000 L CNN
-F 2 "" H 4050 5600 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 4050 5600 50  0001 C CNN
 F 3 "~" H 4050 5600 50  0001 C CNN
 	1    4050 5600
 	1    0    0    -1  
@@ -312,23 +312,23 @@ Connection ~ 3950 6050
 Wire Wire Line
 	3950 6050 3850 6050
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW1
 U 1 1 5AFAF43C
 P 2150 4850
-F 0 "SW?" H 2150 5135 50  0000 C CNN
+F 0 "SW1" H 2150 5135 50  0000 C CNN
 F 1 "SW_Push_Dual" H 2150 5044 50  0000 C CNN
-F 2 "" H 2150 5050 50  0001 C CNN
+F 2 "Buzzer_Beeper:PUIAudio_SMT_0825_S_4_R" H 2150 5050 50  0001 C CNN
 F 3 "" H 2150 5050 50  0001 C CNN
 	1    2150 4850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C2
 U 1 1 5AFAF4B3
 P 2150 5400
-F 0 "C?" V 2402 5400 50  0000 C CNN
+F 0 "C2" V 2402 5400 50  0000 C CNN
 F 1 "100n" V 2311 5400 50  0000 C CNN
-F 2 "" H 2188 5250 50  0001 C CNN
+F 2 "_Generic:0603_Small" H 2188 5250 50  0001 C CNN
 F 3 "~" H 2150 5400 50  0001 C CNN
 	1    2150 5400
 	0    -1   -1   0   
@@ -368,12 +368,12 @@ Text HLabel 2600 4900 3    50   Input ~ 0
 Wire Wire Line
 	2600 4900 2600 4700
 $Comp
-L Device:Jumper_NC_Dual JP?
+L Device:Jumper_NC_Dual JP2
 U 1 1 5AFBE24C
 P 2800 5700
-F 0 "JP?" H 2800 5846 50  0000 C CNN
+F 0 "JP2" H 2800 5846 50  0000 C CNN
 F 1 "Jumper_NC_Dual" H 2800 5937 50  0000 C CNN
-F 2 "" H 2800 5700 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2800 5700 50  0001 C CNN
 F 3 "~" H 2800 5700 50  0001 C CNN
 	1    2800 5700
 	-1   0    0    1   
@@ -381,12 +381,12 @@ $EndComp
 Wire Wire Line
 	2800 5600 2800 5550
 $Comp
-L Device:R R?
+L Device:R R1
 U 1 1 5AFC0A92
 P 2800 5400
-F 0 "R?" H 2870 5446 50  0000 L CNN
+F 0 "R1" H 2870 5446 50  0000 L CNN
 F 1 "10k" H 2870 5355 50  0000 L CNN
-F 2 "" V 2730 5400 50  0001 C CNN
+F 2 "_Generic:0603_Small" V 2730 5400 50  0001 C CNN
 F 3 "~" H 2800 5400 50  0001 C CNN
 	1    2800 5400
 	1    0    0    -1  
@@ -402,23 +402,23 @@ Wire Wire Line
 Wire Wire Line
 	3050 5700 3200 5700
 $Comp
-L Device:C C?
+L Device:C C3
 U 1 1 5AFC5E6D
 P 2950 5100
-F 0 "C?" H 3065 5146 50  0000 L CNN
+F 0 "C3" H 3065 5146 50  0000 L CNN
 F 1 "C" H 3065 5055 50  0000 L CNN
-F 2 "" H 2988 4950 50  0001 C CNN
+F 2 "_Generic:0603_Small" H 2988 4950 50  0001 C CNN
 F 3 "~" H 2950 5100 50  0001 C CNN
 	1    2950 5100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C4
 U 1 1 5AFCB4B7
 P 3250 5100
-F 0 "C?" H 3365 5146 50  0000 L CNN
+F 0 "C4" H 3365 5146 50  0000 L CNN
 F 1 "C" H 3365 5055 50  0000 L CNN
-F 2 "" H 3288 4950 50  0001 C CNN
+F 2 "_Generic:0603_Small" H 3288 4950 50  0001 C CNN
 F 3 "~" H 3250 5100 50  0001 C CNN
 	1    3250 5100
 	1    0    0    -1  
@@ -452,4 +452,104 @@ Wire Wire Line
 	3300 4800 3200 4800
 Wire Wire Line
 	3200 4800 3200 4700
+Text GLabel 6700 2100 1    50   Input ~ 0
+SDMMC1_D0
+Text GLabel 6800 2100 1    50   Input ~ 0
+SDMMC1_D1
+Text GLabel 6900 2100 1    50   Input ~ 0
+SDMMC1_D2
+Text GLabel 7000 2100 1    50   Input ~ 0
+SDMMC1_D3
+Text GLabel 7100 2100 1    50   Input ~ 0
+SDMMC1_CK
+Text GLabel 7200 2100 1    50   Input ~ 0
+SDMMC1_CMD
+Wire Wire Line
+	6700 2100 6700 2200
+Wire Wire Line
+	6800 2200 6800 2100
+Wire Wire Line
+	6900 2100 6900 2200
+Wire Wire Line
+	7000 2200 7000 2100
+Wire Wire Line
+	7100 2100 7100 2200
+Wire Wire Line
+	7200 2200 7200 2100
+Text GLabel 3500 2100 1    50   Input ~ 0
+USART1_RX
+Text GLabel 3400 2100 1    50   Input ~ 0
+USART1_TX
+Text GLabel 2700 2100 1    50   Input ~ 0
+USART2_TX
+Text GLabel 2800 2100 1    50   Input ~ 0
+USART2_RX
+Text GLabel 3600 2100 1    50   Input ~ 0
+OTG_FS_DM
+Text GLabel 3700 2100 1    50   Input ~ 0
+OTG_FS_DP
+Text GLabel 5600 2100 1    50   Input ~ 0
+SDMMC2_D0
+Text GLabel 5700 2100 1    50   Input ~ 0
+SDMMC2_D1
+Text GLabel 8200 2100 1    50   Input ~ 0
+SDMMC2_CK
+Text GLabel 4500 2100 1    50   Input ~ 0
+SDMMC2_D2
+Text GLabel 4600 2100 1    50   Input ~ 0
+SDMMC2_D3
+Text GLabel 8300 2100 1    50   Input ~ 0
+SDMMC2_CMD
+Text GLabel 5700 1500 1    50   Input ~ 0
+OTG_HS_DP
+Text GLabel 5600 1500 1    50   Input ~ 0
+OTG_HS_DM
+Text GLabel 8700 2100 1    50   Input ~ 0
+QUADSPI_BK1_IO0
+Text GLabel 8800 2100 1    50   Input ~ 0
+QUADSPI_BK1_IO1
+Text GLabel 8900 2100 1    50   Input ~ 0
+QUADSPI_BK1_IO3
+Text GLabel 7800 4800 3    50   Input ~ 0
+QUADSPI_BK1_IO2
+Text GLabel 4800 4800 3    50   Input ~ 0
+QUADSPI_BK1_NCS
+Text GLabel 6900 4800 3    50   Input ~ 0
+QUADSPI_CLK
+Text GLabel 5200 2100 1    50   Input ~ 0
+USART2_TX
+Text GLabel 5300 2100 1    50   Input ~ 0
+USART2_RX
+Text GLabel 4800 2100 1    50   Input ~ 0
+I2C1_SCL
+Text GLabel 5100 2100 1    50   Input ~ 0
+I2C1_SDA
+Text GLabel 5900 4800 3    50   Input ~ 0
+I2C2_SDA
+Text GLabel 6000 4800 3    50   Input ~ 0
+I2C2_SCL
+Text GLabel 3800 2100 1    50   Input ~ 0
+JTMS-SWDIO
+Text GLabel 3900 2100 1    50   Input ~ 0
+JTCK-SWCLK
+Text GLabel 4000 2100 1    50   Input ~ 0
+JTDI
+Text GLabel 4500 1550 1    50   Input ~ 0
+JTDO
+Text GLabel 4600 1550 1    50   Input ~ 0
+NJTRST
+Text GLabel 6500 1950 1    50   Input ~ 0
+USART6_TX
+Text GLabel 6600 1950 1    50   Input ~ 0
+USART6_RX
+Text Notes 7750 2000 0    50   ~ 0
+tmc
+Text Notes 8450 1950 0    50   ~ 0
+tmc
+Text GLabel 5300 4800 3    50   Input ~ 0
+SPI1_SCK
+Text GLabel 5100 4800 3    50   Input ~ 0
+SPI1_MISO
+Text GLabel 4700 2100 1    50   Input ~ 0
+SPI1_MOSI
 $EndSCHEMATC
