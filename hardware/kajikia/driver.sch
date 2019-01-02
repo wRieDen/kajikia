@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:kajikia-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 20
+Sheet 5 10
 Title ""
 Date ""
 Rev ""
@@ -442,16 +441,13 @@ Wire Wire Line
 Connection ~ 5150 3900
 Wire Wire Line
 	5150 3900 7650 3900
-Wire Wire Line
-	5150 4000 7550 4000
 Connection ~ 5050 4000
 Wire Wire Line
 	5050 4000 5050 5700
 Wire Wire Line
-	5050 4000 5150 4000
-Wire Wire Line
 	5150 3900 5150 4000
-Connection ~ 5150 4000
 Wire Wire Line
 	5150 4000 5150 5500
+Wire Wire Line
+	5050 4000 7550 4000
 $EndSCHEMATC
