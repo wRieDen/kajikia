@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:kajikia-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 10
+Sheet 4 17
 Title ""
 Date ""
 Rev ""
@@ -13,4 +14,205 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L Device:R R?
+U 1 1 5C5A3C3E
+P 2150 1550
+F 0 "R?" H 2220 1596 50  0000 L CNN
+F 1 "R" H 2220 1505 50  0000 L CNN
+F 2 "" V 2080 1550 50  0001 C CNN
+F 3 "~" H 2150 1550 50  0001 C CNN
+	1    2150 1550
+	1    0    0    -1  
+$EndComp
+Text GLabel 2150 1250 0    50   Input ~ 0
+3.3V
+$Comp
+L #Power:GND #PWR?
+U 1 1 5C5A3DC8
+P 2150 2150
+F 0 "#PWR?" H 2150 1900 50  0001 C CNN
+F 1 "GND" H 2150 2000 50  0001 C CNN
+F 2 "" H 2150 2150 50  0001 C CNN
+F 3 "" H 2150 2150 50  0001 C CNN
+	1    2150 2150
+	1    0    0    -1  
+$EndComp
+Text GLabel 1950 1850 0    50   Input ~ 0
+TH1
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5C5A3E44
+P 2350 1850
+F 0 "J?" H 2430 1892 50  0000 L CNN
+F 1 "Conn_01x01" H 2430 1801 50  0000 L CNN
+F 2 "" H 2350 1850 50  0001 C CNN
+F 3 "~" H 2350 1850 50  0001 C CNN
+	1    2350 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5C5A3E86
+P 2350 2000
+F 0 "J?" H 2430 2042 50  0000 L CNN
+F 1 "Conn_01x01" H 2430 1951 50  0000 L CNN
+F 2 "" H 2350 2000 50  0001 C CNN
+F 3 "~" H 2350 2000 50  0001 C CNN
+	1    2350 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 2150 2150 2000
+Wire Wire Line
+	2150 1850 2150 1700
+Wire Wire Line
+	2150 1850 1950 1850
+Connection ~ 2150 1850
+Wire Wire Line
+	2150 1400 2150 1250
+Text GLabel 4500 2550 0    50   Input ~ 0
+io
+$Comp
+L #Power:GND #PWR?
+U 1 1 5C5A437C
+P 5750 3250
+F 0 "#PWR?" H 5750 3000 50  0001 C CNN
+F 1 "GND" H 5750 3100 50  0001 C CNN
+F 2 "" H 5750 3250 50  0001 C CNN
+F 3 "" H 5750 3250 50  0001 C CNN
+	1    5750 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 5C5A45C1
+P 4700 2350
+F 0 "D?" V 4654 2429 50  0000 L CNN
+F 1 "D_Schottky" V 4745 2429 50  0000 L CNN
+F 2 "" H 4700 2350 50  0001 C CNN
+F 3 "~" H 4700 2350 50  0001 C CNN
+	1    4700 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C5A4A73
+P 4950 2550
+F 0 "R?" V 5157 2550 50  0000 C CNN
+F 1 "220" V 5066 2550 50  0000 C CNN
+F 2 "" V 4880 2550 50  0001 C CNN
+F 3 "~" H 4950 2550 50  0001 C CNN
+	1    4950 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Q_NMOS_DGS Q?
+U 1 1 5C5A4B4E
+P 5650 2600
+F 0 "Q?" H 5855 2646 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 5855 2555 50  0000 L CNN
+F 2 "" H 5850 2700 50  0001 C CNN
+F 3 "~" H 5650 2600 50  0001 C CNN
+	1    5650 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 2500 4700 2550
+Wire Wire Line
+	4700 2550 4500 2550
+Wire Wire Line
+	5100 2550 5150 2550
+Wire Wire Line
+	5750 2800 5750 3000
+Wire Wire Line
+	4700 2550 4800 2550
+Connection ~ 4700 2550
+$Comp
+L #PCB_Only:SolderJumper_3_Open JP?
+U 1 1 5C5A55A5
+P 5250 2550
+F 0 "JP?" V 5097 2550 50  0000 C CNN
+F 1 "SolderJumper_3_Open" H 5250 2550 50  0001 C CNN
+F 2 "" H 5250 2550 50  0001 C CNN
+F 3 "~" H 5250 2550 50  0001 C CNN
+	1    5250 2550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5350 2600 5400 2600
+Wire Wire Line
+	5350 2500 5500 2500
+Wire Wire Line
+	5500 2500 5500 2150
+Wire Wire Line
+	5500 2150 5750 2150
+Wire Wire Line
+	5750 2150 5750 2400
+$Comp
+L Device:R R?
+U 1 1 5C5A5940
+P 5400 2800
+F 0 "R?" H 5470 2846 50  0000 L CNN
+F 1 "50k" H 5470 2755 50  0000 L CNN
+F 2 "" V 5330 2800 50  0001 C CNN
+F 3 "~" H 5400 2800 50  0001 C CNN
+	1    5400 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 2950 5400 3000
+Wire Wire Line
+	5400 3000 5750 3000
+Connection ~ 5750 3000
+Wire Wire Line
+	5750 3000 5750 3250
+Wire Wire Line
+	5400 2650 5400 2600
+Connection ~ 5400 2600
+Wire Wire Line
+	5400 2600 5450 2600
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5C5A8CB2
+P 6350 2000
+F 0 "J?" H 6430 2042 50  0000 L CNN
+F 1 "Conn_01x03" H 6430 1951 50  0000 L CNN
+F 2 "" H 6350 2000 50  0001 C CNN
+F 3 "~" H 6350 2000 50  0001 C CNN
+	1    6350 2000
+	1    0    0    -1  
+$EndComp
+Text GLabel 4450 2150 0    50   Input ~ 0
+3.3V
+$Comp
+L #PCB_Only:SolderJumper_3_Open JP?
+U 1 1 5C5A9222
+P 5350 1900
+F 0 "JP?" V 5503 1900 50  0000 C CNN
+F 1 "SolderJumper_3_Open" H 5350 1900 50  0001 C CNN
+F 2 "" H 5350 1900 50  0001 C CNN
+F 3 "~" H 5350 1900 50  0001 C CNN
+	1    5350 1900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6150 2100 6150 3000
+Wire Wire Line
+	6150 3000 5750 3000
+Wire Wire Line
+	6150 2000 5750 2000
+Wire Wire Line
+	5750 2000 5750 2150
+Connection ~ 5750 2150
+Wire Wire Line
+	6150 1900 5450 1900
+Text GLabel 4950 1850 0    50   Input ~ 0
+DCIN
+Text GLabel 4950 1950 0    50   Input ~ 0
+BUCK
+Wire Wire Line
+	4950 1950 5250 1950
+Wire Wire Line
+	5250 1850 4950 1850
 $EndSCHEMATC
