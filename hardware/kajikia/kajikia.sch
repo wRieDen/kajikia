@@ -145,6 +145,12 @@ P3.26_POW
 Wire Wire Line
 	6800 6650 6300 6650
 $Sheet
+S 1500 800  650  400 
+U 5E7AB09B
+F0 "Power" 50
+F1 "power.sch" 50
+$EndSheet
+$Sheet
 S 1100 2000 650  3550
 U 5C3B9892
 F0 "Interfaces" 50
@@ -2023,12 +2029,6 @@ Wire Wire Line
 	3500 3950 4500 3950
 Wire Wire Line
 	3500 4050 4500 4050
-$Sheet
-S 1500 800  650  400 
-U 5E7AB09B
-F0 "Power" 50
-F1 "power.sch" 50
-$EndSheet
 Text Notes -950 1800 0    50   ~ 0
 CAPS\n12p, 0603, 50v\n470p, 0603, 50v\n22n, 0603, 100v\n100n, 0603, 50v\n470n, 0603, 25v\n4.7u, 0805, 50v\n10u, 0603, 16v\n390u, 8x12mm, 20v\n68u, 8x10mm, 50v
 $Comp
