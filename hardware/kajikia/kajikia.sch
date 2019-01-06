@@ -23,12 +23,6 @@ $EndSheet
 Text Notes 10750 750  0    50   ~ 0
 buzzer\nled
 $Sheet
-S 1550 1600 1000 1000
-U 5B406A78
-F0 "power" 50
-F1 "power.sch" 50
-$EndSheet
-$Sheet
 S 6050 1600 1000 1000
 U 5B406A7B
 F0 "io" 50
