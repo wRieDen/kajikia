@@ -71,8 +71,6 @@ F 3 "" H 2250 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3550 2650 2250 2650
-Wire Wire Line
 	3550 2200 3550 2650
 Wire Wire Line
 	3150 2000 3250 2000
@@ -86,9 +84,6 @@ Wire Wire Line
 	2750 2300 2650 2300
 Wire Wire Line
 	3800 2300 3050 2300
-Wire Wire Line
-	2250 2650 2250 2600
-Connection ~ 3550 2650
 Wire Wire Line
 	4100 2650 3550 2650
 Wire Wire Line
@@ -210,9 +205,6 @@ Wire Wire Line
 	2900 1700 2900 1650
 Wire Wire Line
 	4100 1950 5550 1950
-Wire Wire Line
-	2250 2700 2250 2650
-Connection ~ 2250 2650
 Text HLabel 1700 2100 0    50   Input ~ 0
 POWER_OUT1
 Text HLabel 1700 2300 0    50   Input ~ 0
@@ -318,17 +310,6 @@ Text HLabel 4150 5400 0    50   BiDi ~ 0
 HV_IO5
 Text HLabel 4150 6900 0    50   BiDi ~ 0
 HV_IO6
-$Comp
-L power:+24V #PWR092
-U 1 1 61250C08
-P 5050 1050
-F 0 "#PWR092" H 5050 900 50  0001 C CNN
-F 1 "+24V" H 5065 1223 50  0000 C CNN
-F 2 "" H 5050 1050 50  0001 C CNN
-F 3 "" H 5050 1050 50  0001 C CNN
-	1    5050 1050
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R?
 U 1 1 5D6D6D1F
@@ -598,8 +579,6 @@ Wire Wire Line
 	5050 1850 5050 1450
 Wire Wire Line
 	5050 1850 5550 1850
-Wire Wire Line
-	5050 1050 5050 1100
 Wire Wire Line
 	5050 1100 5450 1100
 Wire Wire Line
@@ -2531,47 +2510,16 @@ Wire Wire Line
 	4650 1200 4650 1100
 Wire Wire Line
 	4650 1100 5050 1100
-$Comp
-L #Power:GND #PWR091
-U 1 1 5CBF343D
-P 4650 1500
-F 0 "#PWR091" H 4650 1250 50  0001 C CNN
-F 1 "GND" H 4650 1350 50  0001 C CNN
-F 2 "" H 4650 1500 50  0001 C CNN
-F 3 "" H 4650 1500 50  0001 C CNN
-	1    4650 1500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4650 1500 4650 1400
 Wire Wire Line
 	5450 2100 5450 1650
 Connection ~ 5450 1650
 Wire Wire Line
 	5050 1850 5050 2100
 Connection ~ 5050 1850
-$Comp
-L #Power:GND #PWR093
-U 1 1 5CCF98B4
-P 5250 2450
-F 0 "#PWR093" H 5250 2200 50  0001 C CNN
-F 1 "GND" H 5250 2300 50  0001 C CNN
-F 2 "" H 5250 2450 50  0001 C CNN
-F 3 "" H 5250 2450 50  0001 C CNN
-	1    5250 2450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	5250 2450 5250 2400
+	5050 2650 5050 2300
 Wire Wire Line
-	5050 2400 5050 2300
-Wire Wire Line
-	5450 2400 5450 2300
-Connection ~ 5250 2400
-Wire Wire Line
-	5250 2400 5450 2400
-Wire Wire Line
-	5050 2400 5250 2400
+	5450 2650 5450 2300
 Wire Wire Line
 	6700 2300 6850 2300
 Wire Wire Line
@@ -2625,8 +2573,6 @@ F 3 "" H 7250 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8550 2650 7250 2650
-Wire Wire Line
 	8550 2200 8550 2650
 Wire Wire Line
 	8150 2000 8250 2000
@@ -2640,9 +2586,6 @@ Wire Wire Line
 	7750 2300 7650 2300
 Wire Wire Line
 	8800 2300 8050 2300
-Wire Wire Line
-	7250 2650 7250 2600
-Connection ~ 8550 2650
 Wire Wire Line
 	9100 2650 8550 2650
 Wire Wire Line
@@ -2764,9 +2707,6 @@ Wire Wire Line
 	7900 1700 7900 1650
 Wire Wire Line
 	9100 1950 10550 1950
-Wire Wire Line
-	7250 2700 7250 2650
-Connection ~ 7250 2650
 Connection ~ 7900 1650
 Wire Wire Line
 	7500 1650 7900 1650
@@ -2853,17 +2793,6 @@ Connection ~ 8550 1100
 Wire Wire Line
 	8550 1100 8550 1150
 $Comp
-L power:+24V #PWR0121
-U 1 1 5CEA84BF
-P 10050 1050
-F 0 "#PWR0121" H 10050 900 50  0001 C CNN
-F 1 "+24V" H 10065 1223 50  0000 C CNN
-F 2 "" H 10050 1050 50  0001 C CNN
-F 3 "" H 10050 1050 50  0001 C CNN
-	1    10050 1050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:Fuse F5
 U 1 1 5CEA84C5
 P 10450 1300
@@ -2893,10 +2822,6 @@ Wire Wire Line
 	10050 1850 10050 1450
 Wire Wire Line
 	10050 1850 10550 1850
-Wire Wire Line
-	10050 1050 10050 1100
-Wire Wire Line
-	10050 1100 10450 1100
 Wire Wire Line
 	10450 1100 10450 1150
 Connection ~ 10050 1100
@@ -2939,47 +2864,16 @@ Wire Wire Line
 	9650 1200 9650 1100
 Wire Wire Line
 	9650 1100 10050 1100
-$Comp
-L #Power:GND #PWR0120
-U 1 1 5CEA84F3
-P 9650 1500
-F 0 "#PWR0120" H 9650 1250 50  0001 C CNN
-F 1 "GND" H 9650 1350 50  0001 C CNN
-F 2 "" H 9650 1500 50  0001 C CNN
-F 3 "" H 9650 1500 50  0001 C CNN
-	1    9650 1500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9650 1500 9650 1400
 Wire Wire Line
 	10450 2100 10450 1650
 Connection ~ 10450 1650
 Wire Wire Line
 	10050 1850 10050 2100
 Connection ~ 10050 1850
-$Comp
-L #Power:GND #PWR0122
-U 1 1 5CEA84FE
-P 10250 2450
-F 0 "#PWR0122" H 10250 2200 50  0001 C CNN
-F 1 "GND" H 10250 2300 50  0001 C CNN
-F 2 "" H 10250 2450 50  0001 C CNN
-F 3 "" H 10250 2450 50  0001 C CNN
-	1    10250 2450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	10250 2450 10250 2400
+	10050 2650 10050 2300
 Wire Wire Line
-	10050 2400 10050 2300
-Wire Wire Line
-	10450 2400 10450 2300
-Connection ~ 10250 2400
-Wire Wire Line
-	10250 2400 10450 2400
-Wire Wire Line
-	10050 2400 10250 2400
+	10450 2650 10450 2300
 Wire Wire Line
 	1250 5800 1550 5800
 Wire Notes Line
@@ -2988,4 +2882,52 @@ Text Notes 550  3450 0    100  ~ 20
 Medium Power Outputs
 Text Notes 550  750  0    100  ~ 20
 High Power Outputs
+Text GLabel 5500 1100 2    50   Input ~ 0
+DCIN+
+Wire Wire Line
+	5500 1100 5450 1100
+Connection ~ 5450 1100
+Text GLabel 5500 2650 2    50   Input ~ 0
+DCIN-
+Wire Wire Line
+	5500 2650 5450 2650
+Connection ~ 5450 2650
+Wire Wire Line
+	5050 2650 5450 2650
+Text GLabel 10500 1100 2    50   Input ~ 0
+DCIN+
+Wire Wire Line
+	10050 1100 10450 1100
+Connection ~ 10450 1100
+Wire Wire Line
+	10450 1100 10500 1100
+Text GLabel 10500 2650 2    50   Input ~ 0
+DCIN-
+Wire Wire Line
+	10500 2650 10450 2650
+Connection ~ 10450 2650
+Wire Wire Line
+	10050 2650 10450 2650
+Wire Wire Line
+	7250 2600 7250 2700
+Wire Wire Line
+	9100 2650 9650 2650
+Connection ~ 9100 2650
+Connection ~ 10050 2650
+Wire Wire Line
+	9650 1400 9650 2650
+Connection ~ 9650 2650
+Wire Wire Line
+	9650 2650 10050 2650
+Wire Wire Line
+	4650 2650 5050 2650
+Wire Wire Line
+	4650 1400 4650 2650
+Connection ~ 5050 2650
+Wire Wire Line
+	2250 2600 2250 2700
+Wire Wire Line
+	4100 2650 4650 2650
+Connection ~ 4100 2650
+Connection ~ 4650 2650
 $EndSCHEMATC

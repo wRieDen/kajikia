@@ -1790,7 +1790,7 @@ Wire Wire Line
 Connection ~ 2000 1550
 Wire Wire Line
 	2000 1550 1650 1550
-Text Notes 850  2100 0    25   ~ 0
+Text Notes 700  2200 0    25   ~ 0
 Replace with DMT40M9LPS for\nhigher current application > 25A
 $Comp
 L power:PWR_FLAG #FLG07
@@ -1918,4 +1918,14 @@ Wire Wire Line
 Connection ~ 8400 6300
 Wire Wire Line
 	8400 6300 8600 6300
+Text GLabel 1350 1150 0    50   Input ~ 0
+DCIN+
+Wire Wire Line
+	1400 1150 1350 1150
+Connection ~ 1400 1150
+Text GLabel 1350 1950 0    50   Input ~ 0
+DCIN-
+Wire Wire Line
+	1400 1950 1350 1950
+Connection ~ 1400 1950
 $EndSCHEMATC
