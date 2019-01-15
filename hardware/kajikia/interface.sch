@@ -24,7 +24,7 @@ AR Path="/5AF7E834/6043293F/5C3B99F7" Ref="J?"  Part="1"
 AR Path="/5C3B9892/5C3B99F7" Ref="J60"  Part="1" 
 F 0 "J60" H 1205 3267 50  0000 C CNN
 F 1 "USB_C_Receptacle" H 1205 3176 50  0000 C CNN
-F 2 "" H 1250 2000 50  0001 C CNN
+F 2 "_Generic:TYPE-C-31-M-12" H 1250 2000 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1250 2000 50  0001 C CNN
 	1    1100 2000
 	1    0    0    -1  
@@ -849,7 +849,7 @@ AR Path="/5AF7E834/6043293F/600FD35F" Ref="JP?"  Part="1"
 AR Path="/5C3B9892/600FD35F" Ref="JP18"  Part="1" 
 F 0 "JP18" V 9050 4568 50  0000 L CNN
 F 1 "SolderJumper_2_Open" H 9050 4500 50  0001 C CNN
-F 2 "" H 9050 4500 50  0001 C CNN
+F 2 "_Generic:Solder Jumper 2P" H 9050 4500 50  0001 C CNN
 F 3 "~" H 9050 4500 50  0001 C CNN
 	1    9050 4500
 	0    -1   1    0   
@@ -918,7 +918,7 @@ AR Path="/5AF7E834/6043293F/600FD385" Ref="JP?"  Part="1"
 AR Path="/5C3B9892/600FD385" Ref="JP19"  Part="1" 
 F 0 "JP19" V 9450 4568 50  0000 L CNN
 F 1 "SolderJumper_2_Open" H 9450 4500 50  0001 C CNN
-F 2 "" H 9450 4500 50  0001 C CNN
+F 2 "_Generic:Solder Jumper 2P" H 9450 4500 50  0001 C CNN
 F 3 "~" H 9450 4500 50  0001 C CNN
 	1    9450 4500
 	0    -1   1    0   
@@ -935,7 +935,7 @@ AR Path="/5AF7E834/6043293F/600FD38D" Ref="JP?"  Part="1"
 AR Path="/5C3B9892/600FD38D" Ref="JP20"  Part="1" 
 F 0 "JP20" V 9850 4568 50  0000 L CNN
 F 1 "SolderJumper_2_Open" H 9850 4500 50  0001 C CNN
-F 2 "" H 9850 4500 50  0001 C CNN
+F 2 "_Generic:Solder Jumper 2P" H 9850 4500 50  0001 C CNN
 F 3 "~" H 9850 4500 50  0001 C CNN
 	1    9850 4500
 	0    -1   1    0   
@@ -952,7 +952,7 @@ AR Path="/5AF7E834/6043293F/600FD395" Ref="JP?"  Part="1"
 AR Path="/5C3B9892/600FD395" Ref="JP21"  Part="1" 
 F 0 "JP21" V 10250 4568 50  0000 L CNN
 F 1 "SolderJumper_2_Open" H 10250 4500 50  0001 C CNN
-F 2 "" H 10250 4500 50  0001 C CNN
+F 2 "_Generic:Solder Jumper 2P" H 10250 4500 50  0001 C CNN
 F 3 "~" H 10250 4500 50  0001 C CNN
 	1    10250 4500
 	0    -1   1    0   
@@ -1891,7 +1891,7 @@ U 1 1 5CD84EB9
 P 6300 4750
 F 0 "JP16" V 6453 4750 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 6300 4750 50  0001 C CNN
-F 2 "" H 6300 4750 50  0001 C CNN
+F 2 "_Generic:Solder Jumper 3P" H 6300 4750 50  0001 C CNN
 F 3 "~" H 6300 4750 50  0001 C CNN
 	1    6300 4750
 	0    -1   -1   0   
@@ -2267,7 +2267,7 @@ U 1 1 5E7E000D
 P 2850 1000
 F 0 "JP15" H 2850 1113 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 2850 1000 50  0001 C CNN
-F 2 "" H 2850 1000 50  0001 C CNN
+F 2 "_Generic:Solder Jumper 2P" H 2850 1000 50  0001 C CNN
 F 3 "~" H 2850 1000 50  0001 C CNN
 	1    2850 1000
 	1    0    0    -1  
