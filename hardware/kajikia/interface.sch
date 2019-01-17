@@ -1208,37 +1208,6 @@ Wire Wire Line
 Connection ~ 6750 5200
 Wire Wire Line
 	5850 4650 5850 4800
-Wire Wire Line
-	9300 5950 9800 5950
-Wire Wire Line
-	9800 5850 9300 5850
-Wire Wire Line
-	9300 5750 9800 5750
-$Comp
-L #Power:GND #PWR?
-U 1 1 6017E91A
-P 9700 6150
-AR Path="/5AF7E834/6017E91A" Ref="#PWR?"  Part="1" 
-AR Path="/5AF7E834/5C3B9892/6017E91A" Ref="#PWR?"  Part="1" 
-AR Path="/5AF7E834/6043293F/6017E91A" Ref="#PWR?"  Part="1" 
-AR Path="/5C3B9892/6017E91A" Ref="#PWR068"  Part="1" 
-F 0 "#PWR068" H 9700 5900 50  0001 C CNN
-F 1 "GND" H 9700 6000 50  0001 C CNN
-F 2 "" H 9700 6150 50  0001 C CNN
-F 3 "" H 9700 6150 50  0001 C CNN
-	1    9700 6150
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	9700 6150 9700 6050
-Wire Wire Line
-	9700 6050 9800 6050
-Text HLabel 9300 5750 0    50   Input ~ 0
-TXD
-Text HLabel 9300 5850 0    50   Output ~ 0
-RXD
-Text HLabel 9300 5950 0    50   Input ~ 0
-ISP_BOOT
 Text HLabel 5200 1650 0    50   Output ~ 0
 ENDSTOP1
 Text HLabel 5200 2050 0    50   Output ~ 0
@@ -1906,17 +1875,6 @@ Wire Wire Line
 	6450 4750 6400 4750
 Connection ~ 6450 4750
 $Comp
-L Connector_Generic:Conn_01x04 J70
-U 1 1 5CF11272
-P 10000 5850
-F 0 "J70" H 10080 5796 50  0000 L CNN
-F 1 "Conn_01x04" H 10080 5751 50  0001 L CNN
-F 2 "_Generic:JST_XH_4P" H 10000 5850 50  0001 C CNN
-F 3 "~" H 10000 5850 50  0001 C CNN
-	1    10000 5850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 5CF4FB6A
 P 9450 1250
@@ -2466,8 +2424,6 @@ Text Notes 8050 3300 0    100  ~ 20
 Thermistors
 Text Notes 5500 4100 0    100  ~ 20
 I2C
-Text Notes 8050 5450 0    100  ~ 20
-Serial
 Wire Notes Line
 	8000 3050 11150 3050
 Wire Notes Line
