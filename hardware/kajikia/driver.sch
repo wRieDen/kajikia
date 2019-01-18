@@ -500,103 +500,6 @@ Wire Wire Line
 	3000 5300 3000 4350
 Wire Wire Line
 	3000 3000 3000 4350
-$Comp
-L Oscillator:XO32 X?
-U 1 1 60F01ECC
-P 2200 2050
-AR Path="/5AF7E834/60C2EDFB/60F01ECC" Ref="X?"  Part="1" 
-AR Path="/5B406A82/60F01ECC" Ref="X?"  Part="1" 
-AR Path="/60C2EDFB/60F01ECC" Ref="X1"  Part="1" 
-F 0 "X1" H 2541 2096 50  0000 L CNN
-F 1 "12MHz" H 2541 2005 50  0000 L CNN
-F 2 "Oscillator:Oscillator_SMD_EuroQuartz_XO32-4Pin_3.2x2.5mm" H 2900 1700 50  0001 C CNN
-F 3 "http://cdn-reichelt.de/documents/datenblatt/B400/XO32.pdf" H 2100 2050 50  0001 C CNN
-	1    2200 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 60F01F7D
-P 1450 2050
-AR Path="/5AF7E834/60C2EDFB/60F01F7D" Ref="C?"  Part="1" 
-AR Path="/5B406A82/60F01F7D" Ref="C?"  Part="1" 
-AR Path="/60C2EDFB/60F01F7D" Ref="C80"  Part="1" 
-F 0 "C80" H 1542 2096 50  0000 L CNN
-F 1 "100n" H 1542 2005 50  0000 L CNN
-F 2 "_Generic:0603_CAP" H 1450 2050 50  0001 C CNN
-F 3 "~" H 1450 2050 50  0001 C CNN
-	1    1450 2050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1900 2050 1800 2050
-Wire Wire Line
-	1800 2050 1800 1650
-Wire Wire Line
-	1800 1650 2200 1650
-Wire Wire Line
-	2200 1650 2200 1750
-Wire Wire Line
-	1450 1950 1450 1650
-Wire Wire Line
-	1450 1650 1800 1650
-Connection ~ 1800 1650
-Wire Wire Line
-	1450 2150 1450 2450
-Wire Wire Line
-	1450 2450 2200 2450
-Wire Wire Line
-	2200 2450 2200 2350
-Wire Wire Line
-	1450 2550 1450 2450
-Connection ~ 1450 2450
-$Comp
-L power:+3.3V #PWR?
-U 1 1 60F1567A
-P 1450 1550
-AR Path="/5AF7E834/60C2EDFB/60F1567A" Ref="#PWR?"  Part="1" 
-AR Path="/5B406A82/60F1567A" Ref="#PWR?"  Part="1" 
-AR Path="/60C2EDFB/60F1567A" Ref="#PWR0123"  Part="1" 
-F 0 "#PWR0123" H 1450 1400 50  0001 C CNN
-F 1 "+3.3V" H 1465 1723 50  0000 C CNN
-F 2 "" H 1450 1550 50  0001 C CNN
-F 3 "" H 1450 1550 50  0001 C CNN
-	1    1450 1550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1450 1550 1450 1650
-Connection ~ 1450 1650
-Wire Wire Line
-	2500 2050 2850 2050
-Connection ~ 3400 2050
-$Comp
-L Device:R R?
-U 1 1 60F38F1C
-P 3000 2050
-AR Path="/5AF7E834/60C2EDFB/60F38F1C" Ref="R?"  Part="1" 
-AR Path="/5B406A82/60F38F1C" Ref="R?"  Part="1" 
-AR Path="/60C2EDFB/60F38F1C" Ref="R80"  Part="1" 
-F 0 "R80" V 2793 2050 50  0000 C CNN
-F 1 "0R" V 2884 2050 50  0000 C CNN
-F 2 "_Generic:0603_RES" V 2930 2050 50  0001 C CNN
-F 3 "~" H 3000 2050 50  0001 C CNN
-	1    3000 2050
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3150 2050 3400 2050
-$Comp
-L #Power:GND #PWR0124
-U 1 1 5C5C4BD5
-P 1450 2550
-F 0 "#PWR0124" H 1450 2300 50  0001 C CNN
-F 1 "GND" H 1455 2377 50  0000 C CNN
-F 2 "" H 1450 2550 50  0001 C CNN
-F 3 "" H 1450 2550 50  0001 C CNN
-	1    1450 2550
-	1    0    0    -1  
-$EndComp
 Text Notes 550  750  0    100  ~ 20
 Stepper Driver Connection
 Wire Wire Line
@@ -607,4 +510,8 @@ Wire Wire Line
 	4850 2350 4900 2350
 Wire Wire Line
 	4850 2250 4900 2250
+Text HLabel 2450 3950 0    50   Input ~ 0
+DRV_CLK
+Wire Wire Line
+	2450 3950 3400 3950
 $EndSCHEMATC
