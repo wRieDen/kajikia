@@ -2111,23 +2111,23 @@ Wire Wire Line
 	12200 4600 12200 4750
 Connection ~ 12200 4450
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H5
 U 1 1 5C4CA30F
 P 7050 6100
-F 0 "H?" H 7150 6146 50  0000 L CNN
+F 0 "H5" H 7150 6146 50  0000 L CNN
 F 1 "MountingHole" H 7150 6055 50  0000 L CNN
-F 2 "" H 7050 6100 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965" H 7050 6100 50  0001 C CNN
 F 3 "~" H 7050 6100 50  0001 C CNN
 	1    7050 6100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H6
 U 1 1 5C4CA407
 P 7050 6350
-F 0 "H?" H 7150 6396 50  0000 L CNN
+F 0 "H6" H 7150 6396 50  0000 L CNN
 F 1 "MountingHole" H 7150 6305 50  0000 L CNN
-F 2 "" H 7050 6350 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965" H 7050 6350 50  0001 C CNN
 F 3 "~" H 7050 6350 50  0001 C CNN
 	1    7050 6350
 	1    0    0    -1  
