@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AOZ1284
+D Simple Switcher Buck Regulator
+K simple-switcher buck step-down voltage-regulator
+$ENDCMP
+#
+#End Doc Library

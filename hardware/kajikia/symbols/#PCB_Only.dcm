@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SolderJumper_2_Open
+D Solder Jumper, 2-pole, open
+K solder jumper SPST
+F ~
+$ENDCMP
+#
+$CMP SolderJumper_3_Open
+D Solder Jumper, 3-pole, open
+K Solder Jumper SPDT
+F ~
+$ENDCMP
+#
+$CMP SolderJumper_4_Open
+D Solder Jumper, 3-pole, open
+K Solder Jumper SPDT
+F ~
+$ENDCMP
+#
+$CMP TestPoint
+D test point
+K test point tp
+F ~
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,12 @@
+(module SolderJumper_JST (layer F.Cu) (tedit 5C418F4B)
+  (fp_text reference REF** (at 0 0) (layer F.Fab) hide
+    (effects (font (size 0.3 0.3) (thickness 0.05)))
+  )
+  (fp_text value SolderJumper_JST (at 0 0) (layer F.Fab) hide
+    (effects (font (size 0.3 0.3) (thickness 0.05)))
+  )
+  (pad 1 smd rect (at 0.6 0) (size 1 2.2) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at -0.5 -0.8) (size 0.85 0.6) (layers F.Cu F.Paste F.Mask))
+  (pad 3 smd rect (at -0.5 0) (size 0.85 0.6) (layers F.Cu F.Paste F.Mask))
+  (pad 4 smd rect (at -0.5 0.8) (size 0.85 0.6) (layers F.Cu F.Paste F.Mask))
+)
