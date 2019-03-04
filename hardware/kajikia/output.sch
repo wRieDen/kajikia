@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 10
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Kajikia - Power Outputs"
+Date "2019-01-23"
+Rev "1.0"
+Comp "Sven Wrieden"
 Comment1 ""
 Comment2 ""
 Comment3 ""
